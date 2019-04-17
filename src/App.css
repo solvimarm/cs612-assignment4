@@ -3,25 +3,161 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  animation: App-logo-spin infinite 1.5s linear;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
+.App-footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+  flex: 1 1 0;
+}
+
 
 .App-link {
   color: #61dafb;
 }
+
+.App-main{
+  padding-top: 16px;
+  padding-bottom : 16px;
+  background-color: gray;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(7px + 1vmin);
+  color: #282c34;
+  text-align: left;
+  flex: 1 1 0;
+}
+.App-nav{
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin:6px;
+  flex: 1 1 0;
+}
+
+.Blog-posts{
+ 
+  background-color : transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin:6px;
+}
+
+.blogPost{
+  border-style : solid;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: black;
+  background-color : whitesmoke;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 98% ;
+  margin:6px;
+}
+
+.blogArticle{
+  padding-right: 6px;
+  padding-left: 6px;
+}
+
+img{
+  border-radius:6px;
+  height: 202px;
+  width: 202px; 
+  min-width: 202px !important;
+}
+/* .img-small{
+  height: 202px;
+  width: 202px;
+} */
+.img-large{
+  height: 202px;
+  width: 202px;
+}
+
+
+
+.main{
+  background-color:grey;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* flex-grow: 1;
+  flex-basis: 0; */
+}
+
+.headlines{
+  background-color: gray;
+  height: 100%;
+  margin: 0px;
+  padding : 0px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex : 1 1 0;
+
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  background-color: whitesmoke;
+  margin: 6px;
+  padding: 6px;
+  border-style : solid;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: black;
+}
+li:hover{
+  background-color: #282c34;
+}
+a:link{
+  color:black;
+}
+a:hover{
+  color:whitesmoke;
+}
+a:visited{
+  color: grey;
+}
+a{
+  text-decoration: none;
+}
+
 
 @keyframes App-logo-spin {
   from {
