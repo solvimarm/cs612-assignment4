@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## If you don't want to run locally you can go to:
+https://assignment4-blog.firebaseapp.com/
+## for a live version of the website
+
 ## Available Scripts
 
 #### If running for the first time:
